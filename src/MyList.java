@@ -4,8 +4,8 @@ import java.util.Collections;
 
 public class MyList {
 
-	int[] list;
-	int length;
+	private int[] list;
+	private int length;
 
 	public int[] createList(int listLength) {
 		int[] listCreated = new int[listLength];
